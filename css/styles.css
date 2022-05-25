@@ -636,13 +636,16 @@ fill: var(--primery-bgr-color);
 }
 
 .btn-close {
-    display: block;
-    margin-left: auto;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     width: 30px;
     height: 30px;
     background-color: transparent;
+    
     cursor: pointer;
 }
