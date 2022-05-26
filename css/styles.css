@@ -578,8 +578,8 @@ fill: var(--primery-bgr-color);
 
     transition: transform var(--duration) var(--timing-function);
 }
-.case-item:hover .case-overlay,
-.case-item:focus .case-overlay {
+.case-link:hover .case-overlay,
+.case-link:focus .case-overlay {
     transform: translateY(0);
 }
 
@@ -646,6 +646,6 @@ fill: var(--primery-bgr-color);
     width: 30px;
     height: 30px;
     background-color: transparent;
-    
+
     cursor: pointer;
 }
